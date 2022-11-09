@@ -6,7 +6,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Futura PT Cond Bold";
+  font-family: "Futura PT Cond Bold", sans-serif;
+  text-decoration: none;
 }
 
 .container {
@@ -16,9 +17,8 @@ body {
 
 .link {
   display: flex;
-  gap: 40px;
+  gap: 10px;
   align-items: center;
-  border: 1px solid black;
 }
 
 .logo {
@@ -26,6 +26,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.msk {
+  text-decoration: none;
+  color: #111111;
 }
 
 .img-icon {
@@ -45,6 +50,7 @@ body {
   font-family: "Futura PT";
   font-style: normal;
   font-weight: 600;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -57,6 +63,65 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.container-2 {
+  height: 518px;
+  background: rgba(72, 184, 223, 0.2);
+  margin-top: 10px;
+}
+
+.text {
+  padding-top: 64px;
+  padding-left: 379px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 64px;
+  width: 532px;
+}
+
+.btn {
+  padding: 13px 21px;
+  background: #F47220;
+  border: #F47220;
+  border-radius: 10px;
+  margin-left: 380px;
+}
+
+.span {
+  color: #007198;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-1 {
+  width: 270px;
+  height: 210px;
+}
+
+.img-col {
+  display: grid;
+}
+
+.card-1 {
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
