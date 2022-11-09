@@ -1,11 +1,63 @@
+@font-face {
+	font-family: 'Futura PT Cond Bold';
+	src: url('../fonts/futura_pt_cond_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/futura_pt_cond_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/futura_pt_cond_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/futura_pt_cond_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/futura_pt_cond_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/futura_pt_cond_bold.svg#futura_pt_cond_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
 body{
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    font-family: 'Futura PT Cond Bold';
 
 }
 
 .container{
-    min-width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
+}
+.link{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border: 1px solid black;
+}
+.logo{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-icon{
+    display: flex;
+    gap: 15px;
+    margin-left: 78px;
+}
+.number{
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.numb{
+    margin-bottom: 0;
+    color: #007198;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 600;
+
+    text-decoration: none;
+
+}
+.h5{
+    margin-top: 0;
+    padding-top: 0;
+    color: #111111;
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
 }
