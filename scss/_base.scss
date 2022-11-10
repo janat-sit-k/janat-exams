@@ -1,22 +1,25 @@
 @font-face {
-	font-family: 'Futura PT Cond Bold';
-	src: url('../fonts/futura_pt_cond_bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/futura_pt_cond_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/futura_pt_cond_bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/futura_pt_cond_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/futura_pt_cond_bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/futura_pt_cond_bold.svg#futura_pt_cond_bold') format('svg'); /* Chrome < 4, Legacy iOS */
-}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
 
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Futura PT Cond Bold',sans-serif;
+    font-family: 'Roboto',sans-serif;
     text-decoration: none;
 }
 
 .container{
-    max-width: 1920px;
+    max-width: 1160px;
     margin: 0 auto;
 }
 .link{
@@ -25,7 +28,8 @@ body{
     align-items: center;
 }
 .logo{
-    width: 100px;
+    width: 500px;
+    // margin-left: 380px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +52,7 @@ body{
 .numb{
     margin-bottom: 0;
     color: #007198;
-    font-family: 'Futura PT';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -56,11 +60,15 @@ body{
     text-decoration: none;
 
 }
+.strong{
+    font-family: 'Roboto',sans-serif;
+    
+}
 .h5{
     margin-top: 0;
     padding-top: 0;
     color: #111111;
-    font-family: 'Futura PT';
+    font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -72,10 +80,13 @@ line-height: 15px;
 .nav{
     display: flex;
     justify-content: space-between;
+    max-width: 1162px;
     margin-top: 37px;
 
 }
 .nav__link{
+    font-family: 'Roboto',sans-serif;
+
     text-decoration: none;
    color:#111111 ; 
    font-weight: 400;
@@ -90,12 +101,10 @@ line-height: 18px;
     margin-top: 10px;
 }
 .text{
-    padding-top: 64px;
-    padding-left: 379px;
     font-weight: 600;
     font-size: 50px;
     line-height: 64px;
-    width: 532px;
+
 }
 
 .btn{
@@ -103,7 +112,6 @@ line-height: 18px;
     background: #F47220;
     border: #F47220;
     border-radius: 10px;
-    margin-left: 380px;
 }
 .span{
     color: #007198;
@@ -112,15 +120,78 @@ line-height: 18px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.text{
+    // padding-left: 370px;
+}
+.btn{
+    // margin-left: 370px;
+    // margin-top: 20px;
+
+}
+.img-card{
+    position: relative;
+}
 .img-1{
     width: 270px;
-    height: 210px
-    // padding-top: -30px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-
-.img-col{
+.img-2{
+    position: absolute;
+    top: 30px;
+    left:310px;
+}.img-3{
+    position: absolute;
+    top: 250px;
+    left:17px;
+}.img-4{
+    position: absolute;
+    top: 250px;
+    left: 310px;
+}
+// главная страница конец
+.h2{
+    text-align: center;
+    font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+}
+.card-four{
     display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
-.card-1{
-    margin-top: 0;
+.card-items{
+    width: 275px;
+    height: 169px;
+    background: #DAF1F9;
+    position: relative;
+    // text-align: center;
+    color: #111111;
+}
+.elipse{
+    position: absolute;
+    top: -42px;
+    left: 98px;
+    width: 70px;
+    height: 70px;
+}
+.h4{
+    font-family: 'Roboto',sans-serif;
+// font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+margin-top: 30px;
+margin-bottom: 5px;
+text-align: center;
+
+}
+.desc{
+    font-size: 10px;
+    width: 234px;
+    font-family: 'Roboto',sans-serif;
+font-weight: 400;
+padding: 5px 20px 16px 21px;
+font-size: 18px;
+line-height: 23px;
 }
