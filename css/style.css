@@ -75,7 +75,7 @@ body {
   display: flex;
   justify-content: space-between;
   max-width: 1162px;
-  margin-top: 37px;
+  margin-top: 20px;
 }
 
 .nav__link {
@@ -103,6 +103,8 @@ body {
   padding: 13px 21px;
   background: #F47220;
   border: #F47220;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(244, 114, 32, 0.4);
   border-radius: 10px;
 }
 
@@ -154,14 +156,16 @@ body {
 .card-four {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-top: 70px;
 }
 
 .card-items {
   width: 275px;
-  height: 169px;
   background: #DAF1F9;
   position: relative;
   color: #111111;
+  border-radius: 18px;
+  box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
 }
 
 .elipse {
@@ -176,19 +180,66 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 23px;
-  margin-top: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   text-align: center;
 }
 
 .desc {
-  font-size: 10px;
-  width: 234px;
+  width: 254px;
+  padding: 0 20px 16px 21px;
+  font-size: 18px;
+}
+
+.six-box {
+  margin-top: 75px;
+}
+
+.title {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  padding: 5px 20px 16px 21px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.card-img {
+  display: grid;
+  gap: 21px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.img-six {
+  width: 350px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.number-orange {
+  font-weight: 600;
   font-size: 18px;
   line-height: 23px;
+  margin-left: 140px;
+  margin-top: 28px;
+  color: #F47220;
+}
+
+.btn-gray {
+  margin-left: 130px;
+  margin-top: 14px;
+  margin-bottom: 40px;
+  padding: 8px 13px 8px 13px;
+  border: 1px solid #F47220;
+  border-radius: 10px;
+}
+
+.four-card {
+  margin-top: 83px;
 }
 
 /*# sourceMappingURL=style.css.map */

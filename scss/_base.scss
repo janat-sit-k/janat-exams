@@ -81,7 +81,7 @@ line-height: 15px;
     display: flex;
     justify-content: space-between;
     max-width: 1162px;
-    margin-top: 37px;
+    margin-top: 20px;
 
 }
 .nav__link{
@@ -93,6 +93,12 @@ line-height: 15px;
 font-size: 14px;
 line-height: 18px;
 }
+// .strong{
+//     border: 1px solid #000000;
+//     color: #111111;
+    
+// text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+// }
 // nav end 
 
 .container-2{
@@ -112,6 +118,8 @@ line-height: 18px;
     background: #F47220;
     border: #F47220;
     border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(244, 114, 32, 0.4);
+border-radius: 10px;
 }
 .span{
     color: #007198;
@@ -151,6 +159,8 @@ line-height: 18px;
     left: 310px;
 }
 // главная страница конец
+
+// 4 карты с элипс начало
 .h2{
     text-align: center;
     font-weight: 600;
@@ -160,14 +170,16 @@ line-height: 38px;
 .card-four{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    margin-top: 70px;
 }
 .card-items{
     width: 275px;
-    height: 169px;
     background: #DAF1F9;
     position: relative;
     // text-align: center;
     color: #111111;
+    border-radius: 18px;
+    box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
 }
 .elipse{
     position: absolute;
@@ -181,17 +193,63 @@ line-height: 38px;
 // font-weight: 600;
 font-size: 18px;
 line-height: 23px;
-margin-top: 30px;
-margin-bottom: 5px;
+margin-bottom: 0;
 text-align: center;
 
 }
 .desc{
-    font-size: 10px;
-    width: 234px;
+    // text-align: center;
+    width: 254px;
+    padding: 0 20px 16px 21px;
+    font-size: 18px;
+}
+//  4 карты с элипс конец
+.six-box{
+    margin-top: 75px;
+}
+.title{
     font-family: 'Roboto',sans-serif;
-font-weight: 400;
-padding: 5px 20px 16px 21px;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+text-align: center;
+}
+.card-img{
+    display: grid;
+    gap:21px ;
+    grid-template-columns: repeat(3,1fr);
+}
+.img-six{
+    width: 350px;
+}
+.subtitle{
+    font-weight: 600;
 font-size: 18px;
-line-height: 23px;
+margin-left: 90px;
+margin-top: 10px;
+}
+.number-orange{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+margin-left: 140px;
+margin-top: 28px;
+color: #F47220;
+
+
+
+}
+.btn-gray{
+    margin-left: 130px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    padding: 8px 13px 8px 13px ;
+    border:1px solid #F47220;
+    border-radius: 10px;
+}
+// 6 карт конец
+
+.four-card{
+    margin-top: 83px;
 }
