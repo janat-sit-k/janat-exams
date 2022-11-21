@@ -101,8 +101,8 @@ body {
 
 .btn {
   padding: 13px 21px;
-  background: #F47220;
-  border: #F47220;
+  background: #f47220;
+  border: #f47220;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(244, 114, 32, 0.4);
   border-radius: 10px;
@@ -161,7 +161,7 @@ body {
 
 .card-items {
   width: 275px;
-  background: #DAF1F9;
+  background: #daf1f9;
   position: relative;
   color: #111111;
   border-radius: 18px;
@@ -178,7 +178,7 @@ body {
 
 .h4 {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 23px;
   margin-bottom: 0;
   text-align: center;
@@ -226,7 +226,7 @@ body {
   line-height: 23px;
   margin-left: 140px;
   margin-top: 28px;
-  color: #F47220;
+  color: #f47220;
 }
 
 .btn-gray {
@@ -234,12 +234,95 @@ body {
   margin-top: 14px;
   margin-bottom: 40px;
   padding: 8px 13px 8px 13px;
-  border: 1px solid #F47220;
+  border: 1px solid #f47220;
   border-radius: 10px;
 }
 
 .four-card {
   margin-top: 83px;
+}
+
+.four-items {
+  width: 480px;
+  padding: 30px 40px 40px;
+  background: linear-gradient(119.05deg, rgba(0, 113, 152, 0.6) 51.26%, rgba(252, 183, 139, 0.4) 89.77%, rgba(252, 183, 139, 0.4) 124.01%, rgba(0, 113, 152, 0.6) 163.79%);
+  border-radius: 10px;
+}
+
+.title-h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.img-in-box {
+  width: 239px;
+  height: 148px;
+}
+
+.text-in-four {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgba(17, 17, 17, 0.5);
+  width: 250px;
+}
+
+.picture {
+  width: 100%;
+}
+
+.post2 {
+  gap: 60px;
+  display: flex;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.post-1 {
+  display: flex;
+  gap: 40px;
+}
+
+.post-2 {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.bg {
+  background: linear-gradient(119.05deg, rgba(0, 113, 152, 0.6) -17.07%, rgba(252, 183, 139, 0.4) 21.44%, rgba(252, 183, 139, 0.4) 55.68%, rgba(0, 113, 152, 0.6) 95.46%);
+  border-radius: 10px;
+}
+
+.bg-3 {
+  background: linear-gradient(119.05deg, rgba(0, 113, 152, 0.6) 12.21%, rgba(252, 183, 139, 0.4) 50.73%, rgba(252, 183, 139, 0.4) 84.96%, rgba(0, 113, 152, 0.6) 124.75%);
+  border-radius: 10px;
+}
+
+.bg-4 {
+  background: linear-gradient(119.05deg, rgba(0, 113, 152, 0.6) -56.36%, rgba(252, 183, 139, 0.4) -17.84%, rgba(252, 183, 139, 0.4) 16.39%, rgba(0, 113, 152, 0.6) 56.18%);
+  border-radius: 10px;
+}
+
+.container-blue {
+  background: #daf1f9;
+  margin-bottom: 100px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.row-title {
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

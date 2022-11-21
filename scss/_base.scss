@@ -1,255 +1,330 @@
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto',sans-serif;
-    text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v30-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v30-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v30-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 
-.container{
-    max-width: 1160px;
-    margin: 0 auto;
-}
-.link{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-.logo{
-    width: 500px;
-    // margin-left: 380px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 
-.msk{
-    text-decoration: none;
-    color: #111111;
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
 }
-.img-icon{
-    display: flex;
-    gap: 15px;
-    margin-left: 78px;
+.link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
-.number{
-    margin-left: 100px;
-    margin-top: 30px;
-
-}
-.numb{
-    margin-bottom: 0;
-    color: #007198;
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-
-    text-decoration: none;
-
-}
-.strong{
-    font-family: 'Roboto',sans-serif;
-    
-}
-.h5{
-    margin-top: 0;
-    padding-top: 0;
-    color: #111111;
-    font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
+.logo {
+  width: 500px;
+  // margin-left: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-
-.nav{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1162px;
-    margin-top: 20px;
-
+.msk {
+  text-decoration: none;
+  color: #111111;
 }
-.nav__link{
-    font-family: 'Roboto',sans-serif;
+.img-icon {
+  display: flex;
+  gap: 15px;
+  margin-left: 78px;
+}
+.number {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.numb {
+  margin-bottom: 0;
+  color: #007198;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
 
-    text-decoration: none;
-   color:#111111 ; 
-   font-weight: 400;
-font-size: 14px;
-line-height: 18px;
+  text-decoration: none;
+}
+.strong {
+  font-family: "Roboto", sans-serif;
+}
+.h5 {
+  margin-top: 0;
+  padding-top: 0;
+  color: #111111;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1162px;
+  margin-top: 20px;
+}
+.nav__link {
+  font-family: "Roboto", sans-serif;
+
+  text-decoration: none;
+  color: #111111;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
 }
 // .strong{
 //     border: 1px solid #000000;
 //     color: #111111;
-    
+
 // text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 // }
-// nav end 
+// nav end
 
-.container-2{
-    height: 518px;
-    background: #48B8DF33;
-    margin-top: 10px;
+.container-2 {
+  height: 518px;
+  background: #48b8df33;
+  margin-top: 10px;
 }
-.text{
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 64px;
+.text {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 64px;
+}
 
+.btn {
+  padding: 13px 21px;
+  background: #f47220;
+  border: #f47220;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(244, 114, 32, 0.4);
+  border-radius: 10px;
+}
+.span {
+  color: #007198;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.btn{
-    padding: 13px 21px;
-    background: #F47220;
-    border: #F47220;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px rgba(244, 114, 32, 0.4);
-border-radius: 10px;
+.img-card {
+  position: relative;
 }
-.span{
-    color: #007198;
+.img-1 {
+  width: 270px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-.card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.img-2 {
+  position: absolute;
+  top: 30px;
+  left: 310px;
 }
-.text{
-    // padding-left: 370px;
+.img-3 {
+  position: absolute;
+  top: 250px;
+  left: 17px;
 }
-.btn{
-    // margin-left: 370px;
-    // margin-top: 20px;
-
-}
-.img-card{
-    position: relative;
-}
-.img-1{
-    width: 270px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.img-2{
-    position: absolute;
-    top: 30px;
-    left:310px;
-}.img-3{
-    position: absolute;
-    top: 250px;
-    left:17px;
-}.img-4{
-    position: absolute;
-    top: 250px;
-    left: 310px;
+.img-4 {
+  position: absolute;
+  top: 250px;
+  left: 310px;
 }
 // главная страница конец
 
 // 4 карты с элипс начало
-.h2{
-    text-align: center;
-    font-weight: 600;
-font-size: 30px;
-line-height: 38px;
+.h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
 }
-.card-four{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin-top: 70px;
+.card-four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 70px;
 }
-.card-items{
-    width: 275px;
-    background: #DAF1F9;
-    position: relative;
-    // text-align: center;
-    color: #111111;
-    border-radius: 18px;
-    box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
+.card-items {
+  width: 275px;
+  background: #daf1f9;
+  position: relative;
+  // text-align: center;
+  color: #111111;
+  border-radius: 18px;
+  box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
 }
-.elipse{
-    position: absolute;
-    top: -42px;
-    left: 98px;
-    width: 70px;
-    height: 70px;
+.elipse {
+  position: absolute;
+  top: -42px;
+  left: 98px;
+  width: 70px;
+  height: 70px;
 }
-.h4{
-    font-family: 'Roboto',sans-serif;
-// font-weight: 600;
-font-size: 18px;
-line-height: 23px;
-margin-bottom: 0;
-text-align: center;
-
+.h4 {
+  font-family: "Roboto", sans-serif;
+  // font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 0;
+  text-align: center;
 }
-.desc{
-    // text-align: center;
-    width: 254px;
-    padding: 0 20px 16px 21px;
-    font-size: 18px;
+.desc {
+  // text-align: center;
+  width: 254px;
+  padding: 0 20px 16px 21px;
+  font-size: 18px;
 }
 //  4 карты с элипс конец
-.six-box{
-    margin-top: 75px;
+.six-box {
+  margin-top: 75px;
 }
-.title{
-    font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 38px;
-text-align: center;
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
 }
-.card-img{
-    display: grid;
-    gap:21px ;
-    grid-template-columns: repeat(3,1fr);
+.card-img {
+  display: grid;
+  gap: 21px;
+  grid-template-columns: repeat(3, 1fr);
 }
-.img-six{
-    width: 350px;
+.img-six {
+  width: 350px;
 }
-.subtitle{
-    font-weight: 600;
-font-size: 18px;
-margin-left: 90px;
-margin-top: 10px;
+.subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 90px;
+  margin-top: 10px;
 }
-.number-orange{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-margin-left: 140px;
-margin-top: 28px;
-color: #F47220;
-
-
-
+.number-orange {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  margin-left: 140px;
+  margin-top: 28px;
+  color: #f47220;
 }
-.btn-gray{
-    margin-left: 130px;
-    margin-top: 14px;
-    margin-bottom: 40px;
-    padding: 8px 13px 8px 13px ;
-    border:1px solid #F47220;
-    border-radius: 10px;
+.btn-gray {
+  margin-left: 130px;
+  margin-top: 14px;
+  margin-bottom: 40px;
+  padding: 8px 13px 8px 13px;
+  border: 1px solid #f47220;
+  border-radius: 10px;
 }
 // 6 карт конец
+//  4 карт начало
 
-.four-card{
-    margin-top: 83px;
+.four-card {
+  margin-top: 83px;
 }
+
+.four-items {
+  width: 480px;
+  padding: 30px 40px 40px;
+  background: linear-gradient(
+    119.05deg,
+    rgba(0, 113, 152, 0.6) 51.26%,
+    rgba(252, 183, 139, 0.4) 89.77%,
+    rgba(252, 183, 139, 0.4) 124.01%,
+    rgba(0, 113, 152, 0.6) 163.79%
+  );
+  border-radius: 10px;
+}
+.title-h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+.img-in-box {
+  width: 239px;
+  height: 148px;
+}
+.text-in-four {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgba(17, 17, 17, 0.5);
+  width: 250px;
+}
+
+.picture {
+  width: 100%;
+}
+.post2 {
+  gap: 60px;
+  display: flex;
+}
+.post {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+.post-1 {
+  display: flex;
+  gap: 40px;
+}
+.post-2 {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
+.bg {
+  background: linear-gradient(
+    119.05deg,
+    rgba(0, 113, 152, 0.6) -17.07%,
+    rgba(252, 183, 139, 0.4) 21.44%,
+    rgba(252, 183, 139, 0.4) 55.68%,
+    rgba(0, 113, 152, 0.6) 95.46%
+  );
+  border-radius: 10px;
+}
+.bg-3 {
+  background: linear-gradient(
+    119.05deg,
+    rgba(0, 113, 152, 0.6) 12.21%,
+    rgba(252, 183, 139, 0.4) 50.73%,
+    rgba(252, 183, 139, 0.4) 84.96%,
+    rgba(0, 113, 152, 0.6) 124.75%
+  );
+  border-radius: 10px;
+}
+.bg-4 {
+  background: linear-gradient(
+    119.05deg,
+    rgba(0, 113, 152, 0.6) -56.36%,
+    rgba(252, 183, 139, 0.4) -17.84%,
+    rgba(252, 183, 139, 0.4) 16.39%,
+    rgba(0, 113, 152, 0.6) 56.18%
+  );
+  border-radius: 10px;
+}
+//  4 карт конец
+
+//  таблица начало
