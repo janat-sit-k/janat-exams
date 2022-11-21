@@ -21,7 +21,9 @@ body {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
-
+* {
+  box-sizing: border-box;
+}
 .container {
   max-width: 1160px;
   margin: 0 auto;
@@ -241,6 +243,7 @@ body {
 
 .four-card {
   margin-top: 83px;
+  margin-bottom: 45px;
 }
 
 .four-items {
@@ -328,3 +331,60 @@ body {
 //  4 карт конец
 
 //  таблица начало
+.col-8 {
+  margin: 0 auto;
+  background: #48b8df33;
+  margin-bottom: 100px;
+  padding: 30px 0;
+}
+.flex-col {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.col {
+  &:first-child .field {
+    border-radius: 5px 0 0 5px;
+  }
+  &:last-child .field {
+    border-radius: 0 5px 5px 0;
+    border-right: 1px solid #888888;
+  }
+}
+.h4-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 12px;
+
+  color: #111111;
+}
+.field {
+  width: 100%;
+  box-sizing: border-box;
+  border-left: 1px solid #888888;
+  border-right: none;
+  padding: 3px;
+}
+.count-col {
+  // max-width: 130px;
+}
+.count {
+  display: flex;
+  border: 1px solid #888888;
+  border-right: none;
+  padding: 3px;
+  background: #fff;
+
+  button,
+  input {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  input {
+    width: 100%;
+    margin: 0 3px;
+    padding: 1px 3px;
+  }
+}
