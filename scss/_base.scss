@@ -23,6 +23,7 @@ body {
 }
 * {
   box-sizing: border-box;
+  font-family: "Roboto", serif;
 }
 .container {
   max-width: 1160px;
@@ -247,8 +248,7 @@ body {
 }
 
 .four-items {
-  width: 480px;
-  padding: 30px 40px 40px;
+  width: 500px;
   background: linear-gradient(
     119.05deg,
     rgba(0, 113, 152, 0.6) 51.26%,
@@ -274,6 +274,8 @@ body {
   line-height: 23px;
   color: rgba(17, 17, 17, 0.5);
   width: 250px;
+  padding-left: 30px;
+  font-family: "Roboto", serif;
 }
 
 .picture {
@@ -292,11 +294,13 @@ body {
 .post-1 {
   display: flex;
   gap: 40px;
+  margin-left: 70px;
 }
 .post-2 {
   display: flex;
   margin-top: 40px;
   gap: 40px;
+  margin-left: 70px;
 }
 .bg {
   background: linear-gradient(
@@ -353,7 +357,7 @@ body {
 .h4-title {
   margin: 0;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 23px;
   margin-bottom: 12px;
 
@@ -362,8 +366,9 @@ body {
 .field {
   width: 100%;
   box-sizing: border-box;
-  border-left: 1px solid #888888;
+  border: 1px solid #888888;
   border-right: none;
+  height: 30px;
   padding: 3px;
 }
 .count-col {
@@ -374,6 +379,7 @@ body {
   border: 1px solid #888888;
   border-right: none;
   padding: 3px;
+  height: 30px;
   background: #fff;
 
   button,
@@ -385,6 +391,139 @@ body {
   input {
     width: 100%;
     margin: 0 3px;
-    padding: 1px 3px;
+    padding: 3px;
   }
 }
+
+// хотите скидку конец
+.m0-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+}
+.span-black {
+  color: #111111;
+}
+.desc-blue {
+  width: 467px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: "Roboto", serif;
+
+  color: #007198;
+}
+.desc-norm {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  width: 565px;
+  color: #111111;
+  font-family: "Roboto", serif;
+}
+// хотите скидку конец
+
+// отзыв начало
+.comment {
+  margin-top: 150px;
+}
+.comments-star {
+  display: flex;
+  align-items: center;
+}
+.star {
+  width: 145px;
+  height: 25px;
+  padding-left: 10px;
+  margin-top: 8px;
+}
+.h4-h4 {
+  color: #595555;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-left: 700px;
+  margin-top: 40px;
+}
+.post-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.black {
+  color: black;
+}
+.card-block-big {
+  width: 560px;
+
+  background: #daf1f9;
+  box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
+  border-radius: 10px;
+}
+.content-block {
+  padding: 28px 34px 17px 20px;
+}
+.h3-block {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #2e2e2e;
+}
+.name-date {
+  display: flex;
+  justify-content: space-between;
+}
+.mt {
+  margin-top: 40px;
+}
+.h5-name {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+.h5-date {
+  color: #2e2e2e;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.card-block {
+  height: 200px;
+  width: 280px;
+  background: #daf1f9;
+  box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
+  border-radius: 10px;
+}
+.star-not-black {
+  width: 116px;
+  height: 20px;
+}
+.m-0 {
+  margin: 0;
+}
+.h3-block {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
+.norm {
+  color: #3d3c3c;
+}
+.h5-center {
+  text-align: center;
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+// отзыв конец
