@@ -2,8 +2,16 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff"), url("../fonts/roboto-v30-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+  src: url("../fonts/roboto-v30-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* roboto-500italic - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin_cyrillic-500italic.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-latin_cyrillic-500italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin_cyrillic-500italic.woff2") format("woff2"), url("../fonts/roboto-v30-latin_cyrillic-500italic.woff") format("woff"), url("../fonts/roboto-v30-latin_cyrillic-500italic.ttf") format("truetype"), url("../fonts/roboto-v30-latin_cyrillic-500italic.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 body {
   margin: 0;
@@ -14,7 +22,6 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: "Roboto", serif;
 }
 
 .container {
@@ -84,7 +91,6 @@ body {
 }
 
 .nav__link {
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: #111111;
   font-weight: 400;
@@ -273,7 +279,7 @@ body {
   color: rgba(17, 17, 17, 0.5);
   width: 250px;
   padding-left: 30px;
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .picture {
@@ -330,6 +336,7 @@ body {
 .flex-col {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  align-items: end;
 }
 
 .col:first-child .field {
@@ -471,8 +478,11 @@ body {
   justify-content: space-between;
 }
 
-.mt {
-  margin-top: 40px;
+.met {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 .h5-name {
@@ -516,14 +526,121 @@ body {
   color: #3d3c3c;
 }
 
-.h5-center {
-  text-align: center;
-  align-items: center;
-}
-
 .d-flex {
   display: flex;
   justify-content: space-between;
+}
+
+.news {
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+
+.cards-four {
+  display: grid;
+  gap: 20px;
+  margin-top: 40px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.items-card {
+  max-width: 282px;
+  border: 1px solid #007198;
+  background: #ffffff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
+  border-radius: 10px;
+  padding: 10px 60px 10px 20px;
+}
+
+.text-box-four {
+  font-weight: 600;
+  font-size: 18px;
+  width: 231px;
+  line-height: 120%;
+  color: #111111;
+}
+
+.four-date {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.border {
+  background: #daf1f9;
+  border: 1px solid #007198;
+  box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
+  border-radius: 10px;
+}
+
+.btn-news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn-new {
+  padding: 8px 21px;
+  background: #f47220;
+  border: #f47220;
+  box-shadow: 3px 3px 5px rgba(244, 114, 32, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.link-d {
+  margin-top: 40px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 23px;
+  color: #111111;
+}
+
+.container-footer {
+  background: #daf1f9;
+  height: 300px;
+}
+
+.footer {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.email {
+  display: flex;
+  gap: 70px;
+}
+
+.number-black {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #111111;
+}
+
+.email {
+  margin-top: 20px;
+}
+
+.mail {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #111111;
+}
+
+.logo-him {
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
