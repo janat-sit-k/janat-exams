@@ -633,8 +633,29 @@ body {
   text-decoration: none;
   color: #111111;
 }
-.email {
-  margin-top: 20px;
+.card-flex {
+  display: flex;
+  gap: 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #111111;
+}
+.parag {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3f3e3e;
+}
+.dark {
+  color: #000000;
+}
+.top {
+  margin-top: 45px;
+}
+.parag-black {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
 }
 .mail {
   font-weight: 600;
@@ -646,5 +667,19 @@ body {
 }
 .logo-him {
   padding-bottom: 20px;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.gray-h5 {
+  color: gray;
+}
+.img-icon-2 {
+  width: 20px;
+  height: 17px;
+  margin: 0 5px;
 }
 // футер конец
