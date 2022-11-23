@@ -119,6 +119,11 @@ body {
 // }
 // nav end
 
+.hamburger {
+  display: none;
+  z-index: 5;
+}
+
 .container-2 {
   height: 518px;
   background: #48b8df33;
@@ -389,9 +394,7 @@ body {
   height: 30px;
   padding: 3px;
 }
-.count-col {
-  // max-width: 130px;
-}
+
 .count {
   display: flex;
   border: 1px solid #888888;

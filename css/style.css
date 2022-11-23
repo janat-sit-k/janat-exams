@@ -98,6 +98,11 @@ body {
   line-height: 18px;
 }
 
+.hamburger {
+  display: none;
+  z-index: 5;
+}
+
 .container-2 {
   height: 518px;
   background: rgba(72, 184, 223, 0.2);
@@ -683,6 +688,33 @@ body {
   width: 20px;
   height: 17px;
   margin: 0 5px;
+}
+
+@media (max-width: 1650px) {
+  .adaptive-1 {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+  }
+  .nav {
+    background: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 4;
+    transition: 0.3s;
+    transform: translateX(100%);
+  }
+  .nav.is-active {
+    transform: translateX(0);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
