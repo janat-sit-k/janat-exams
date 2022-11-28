@@ -55,7 +55,6 @@ body {
 }
 .logo {
   width: 500px;
-  // margin-left: 380px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,8 +66,9 @@ body {
 }
 .img-icon {
   display: flex;
-  gap: 15px;
+  gap: 18px;
   margin-left: 78px;
+  cursor: pointer;
 }
 .number {
   margin-left: 100px;
@@ -83,6 +83,11 @@ body {
   font-size: 18px;
 
   text-decoration: none;
+}
+.numb:hover {
+  color: #007198;
+  font-weight: 600;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .strong {
   font-family: "Roboto", sans-serif;
@@ -106,17 +111,28 @@ body {
 }
 .nav__link {
   text-decoration: none;
-  color: #111111;
-  font-weight: 400;
+  color: #474747;
+  font-weight: 600;
+  cursor: pointer;
   font-size: 14px;
   line-height: 18px;
 }
-// .strong{
-//     border: 1px solid #000000;
-//     color: #111111;
+.nav__link:hover {
+  font-size: 15px;
+}
+.nav__link:hover {
+  color: #000000;
+  font-weight: 600;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-// text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-// }
+.form-input {
+  border: none;
+}
+.form-input:hover {
+  border: 1px solid black;
+}
+
 // nav end
 
 .hamburger {
@@ -142,9 +158,16 @@ body {
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(244, 114, 32, 0.4);
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #090300;
+  color: white;
 }
 .span {
   color: #007198;
+  cursor: pointer;
 }
 .card {
   display: grid;
@@ -152,29 +175,17 @@ body {
 }
 
 .img-card {
-  position: relative;
+  padding-top: 30px;
 }
 .img-1 {
-  width: 270px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  width: 280px;
+  transition: 0.6s;
+  cursor: pointer;
 }
-.img-2 {
-  position: absolute;
-  top: 30px;
-  left: 310px;
+.img-1:hover {
+  transform: translateY(-20px);
 }
-.img-3 {
-  position: absolute;
-  top: 250px;
-  left: 17px;
-}
-.img-4 {
-  position: absolute;
-  top: 250px;
-  left: 310px;
-}
+
 // главная страница конец
 
 // 4 карты с элипс начало
@@ -215,7 +226,7 @@ body {
 }
 .desc {
   // text-align: center;
-  width: 254px;
+  max-width: 254px;
   padding: 0 20px 16px 21px;
   font-size: 18px;
 }
