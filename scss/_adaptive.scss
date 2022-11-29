@@ -21,6 +21,11 @@
     width: 65px;
     height: 65px;
   }
+  .card-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 170px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -77,6 +82,12 @@
   .card-items {
     width: 250px;
   }
+
+  .card-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 90px;
+  }
 }
 
 @media (max-width: 920px) {
@@ -91,8 +102,19 @@
   .card-four {
     margin-left: 80px;
   }
+  .card-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 60px;
+  }
 }
-
+@media (max-width: 840px) {
+  .card-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 250px;
+  }
+}
 @media (max-width: 768px) {
   //  header
 
@@ -175,6 +197,13 @@
   .card-four {
     margin-left: 40px;
   }
+
+  .card-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 300px;
+    justify-content: center;
+  }
 }
 @media (max-width: 650px) {
   .card-four {
@@ -183,6 +212,13 @@
     margin-left: 40px;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 70px;
+  }
+  .card-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    // margin-left: 100px;
+    width: 100px;
+    justify-content: center;
   }
 }
 @media (max-width: 590px) {
@@ -217,6 +253,43 @@
     margin-left: 150px;
     gap: 60px;
   }
+  .card-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    // margin-left: 100px;
+    width: 80px;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .card-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 145px;
+  }
+  .img-six {
+    width: 250px;
+  }
+  .subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+  }
+  .number-orange {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 28px;
+    color: #f47220;
+  }
+  .btn-gray {
+    margin-left: 80px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    padding: 8px 13px 8px 13px;
+    border: 1px solid #f47220;
+    border-radius: 10px;
+  }
 }
 @media (max-width: 420px) {
   //  header
@@ -242,8 +315,12 @@
   .card-four {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 90px;
+    margin-left: 80px;
     gap: 45px;
+  }
+  .title {
+    line-height: 30px;
+    font-size: 23px;
   }
 }
 @media (max-width: 360px) {
@@ -264,5 +341,11 @@
   .h2 {
     line-height: 35px;
     font-size: 19px;
+  }
+  .card-four {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+    gap: 45px;
   }
 }
