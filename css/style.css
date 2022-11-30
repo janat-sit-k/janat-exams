@@ -564,7 +564,6 @@ body {
 }
 
 .news {
-  margin-top: 300px;
   margin-bottom: 100px;
 }
 
@@ -638,7 +637,6 @@ body {
 
 .container-footer {
   background: #daf1f9;
-  height: 300px;
 }
 
 .footer {
@@ -722,9 +720,13 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .card-four {
+  .cards-four {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .want-flex {
+    display: grid;
   }
 }
 @media (max-width: 1134px) {
@@ -843,6 +845,10 @@ body {
   .card-block-big {
     display: grid;
   }
+  .card-flex {
+    display: flex;
+    gap: 50px;
+  }
 }
 @media (max-width: 840px) {
   .card-img {
@@ -958,6 +964,15 @@ body {
   .h4-h4 {
     margin-left: 100px;
   }
+  .cards-four {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 @media (max-width: 650px) {
   .card-four {
@@ -1027,7 +1042,7 @@ body {
   .card-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 145px;
+    margin-left: 135px;
   }
   .img-six {
     width: 250px;
@@ -1133,13 +1148,7 @@ body {
     line-height: 35px;
     font-size: 19px;
   }
-  .card-four {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 20px;
-    gap: 45px;
-  }
-  .flex-col {
+  x-col {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1148,6 +1157,9 @@ body {
   }
   .card-block-big {
     width: 16.25rem;
+  }
+  .news {
+    margin-top: 50px;
   }
 }
 
